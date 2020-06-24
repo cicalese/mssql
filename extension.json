@@ -12,9 +12,6 @@
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extension\\Mssql\\": "src/"
 	},
-	"AutoloadClasses": {
-		"DatabaseMssq": "DatabaseMssq.php"
-	},
 	"Hooks": {
 		"LoadExtensionSchemaUpdates":
 		"MediaWiki\\Extension\\Mssql\\Hook::onLoadExtensionSchemaUpdates"
