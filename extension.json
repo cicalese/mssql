@@ -1,0 +1,37 @@
+{
+	"name": "Mssql",
+	"author": [
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Mssql",
+	"descriptionmsg": "mssql-desc",
+	"license-name": "GPL-3.0-or-later",
+	"type": "database",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\Mssql\\": "src/"
+	},
+	"AutoloadClasses": {
+		"DatabaseMssq": "DatabaseMssq.php"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates":
+		"MediaWiki\\Extension\\Mssql\\Hook::onLoadExtensionSchemaUpdates"
+	},
+	"Providers": {
+		"Databases": {
+			"mssql": {
+				"Installer": "MediaWiki\\Extension\\Mssql\\Installer",
+				"Driver": "MediaWiki\\Extension\\Mssql\\Driver",
+				"Updater": "MediaWiki\\Extension\\Mssql\\Updater"
+			}
+		}
+	},
+	"MessagesDirs": {
+		"Mssql": [
+			"i18n"
+		]
+	},
+	"manifest_version": 2
+}

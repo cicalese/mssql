@@ -1,0 +1,13 @@
+{
+	"mssql-desc": "{{desc|name=Mssql|url=https://www.mediawiki.org/wiki/Extension:Mssql}}",
+	"config-dbsupport-mssql": "Used in:\n* {{msg-mw|Config-support-info}}\n{{Related|Config-dbsupport}}",
+	"config-header-mssql": "Used as a section heading on the installer form, inside of a fieldset",
+	"config-mssql-old": "Used as an error message. Parameters:\n* $1 - minimum version\n* $2 - the version of Microsoft SQL Server that has been installed\n{{Related|Config-old}}",
+	"config-mssql-auth": "Radio button group label.\n\nFollowed by the following radio button labels:\n* {{msg-mw|Config-mssql-sqlauth}}\n* {{msg-mw|Config-mssql-windowsauth}}",
+	"config-mssql-install-auth": "Used as the help text for the \"Authentication type\" radio button when typing in database settings for installation.\n\nRefers to {{msg-mw|Config-mssql-windowsauth}}.\n\nSee also:\n* {{msg-mw|Config-mssql-web-auth}}",
+	"config-mssql-web-auth": "Used as the help text for the \"Authentication type\" radio button when typing in database settings for normal wiki usage.\n\nRefers to {{msg-mw|Config-mssql-windowsauth}}.\n\nSee also:\n* {{msg-mw|Config-mssql-install-auth}}",
+	"config-mssql-sqlauth": "Radio button.\n\n\"SQL Server\" refers to \"Microsoft SQL Server\".\n\nSee also:\n* {{msg-mw|Config-mssql-windowsauth}}",
+	"config-mssql-windowsauth": "Radio button. The official term is \"Integrated Windows Authentication\" but Microsoft itself uses \"Windows Authentication\" elsewhere in Microsoft SQL Server as a synonym.\n\nAlso used in:\n* {{msg-mw|Config-mssql-install-auth}}\n* {{msg-mw|Config-mssql-web-auth}}\n\nSee also:\n* {{msg-mw|Config-mssql-sqlauth}}",
+	"config-type-mssql": "{{optional}}",
+	"version-db-mssql-url": "{{ignored}}URL to the website of Microsoft SQL Server"
+}
